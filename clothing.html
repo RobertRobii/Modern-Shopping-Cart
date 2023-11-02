@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js" defer></script>
+    <script src="cart.js" defer></script>
+  </head>
+  <body>
+    <nav class="header-navbar">
+      <p class="date">10.10.2023</p>
+      <a href="index.html" class="title">About You</a>
+      <a class="cart-link" href="cart.html">Shopping cart</a>
+    </nav>
+
+    <nav class="products-navbar">
+      <h2>Brows here:</h2>
+      <a class="clothing-link" href="clothing.html">Clothing</a>
+      <a class="shoes-link" href="shoes.html">Shoes</a>
+    </nav>
+    <section class="product-wrapper">
+      <div class="product-content">
+        <div class="product-left">
+          <h2><span class="item-title">T-shirt</span>New collection</h2>
+          <p class="price">124.99 Lei</p>
+          <div class="color-content">
+            <h3>select color</h3>
+            <div class="color-groups">
+              <div class="color color-white active-color"></div>
+              <div class="color color-black"></div>
+              <div class="color color-yellow"></div>
+              <div class="color color-blue"></div>
+              <div class="color color-red"></div>
+            </div>
+          </div>
+          <a class="buy-button" href="cart.html">Add to cart</a>
+        </div>
+        <div class="product-right">
+          <img class="item-image" src="images/shirts/tshirt_white.png" />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

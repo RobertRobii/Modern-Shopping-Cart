@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js" defer></script>
+    <script src="cart.js" defer></script>
+  </head>
+  <body>
+    <nav class="header-navbar">
+      <p class="date">10.10.2023</p>
+      <a class="title" href="index.html">About You</a>
+      <a class="cart-link" href="cart.html">Shopping cart</a>
+    </nav>
+
+    <div class="cart-header">
+      <h1>My Shopping cart</h1>
+      <a href="index.html">Go back for more shopping →</a>
+    </div>
+
+    <div class="final-cart">
+      <div class="items-left"></div>
+      <div class="total">
+        <div class="total-price">
+          <p>Subtotal</p>
+          <p class="subtotal">0 Lei</p>
+        </div>
+        <div class="total-price">
+          <p>Delivery</p>
+          <p>29.99 Lei</p>
+        </div>
+        <div class="total-price bold">
+          <p>Total</p>
+          <p class="final-total">29.99 Lei</p>
+        </div>
+        <button class="checkout-button">Proceed to checkout</button>
+        <hr />
+        <div class="cards-images">
+          <img class="card-image" src="images/cards/visa.png" alt="" />
+          <img class="card-image" src="images/cards/mastercard.png" alt="" />
+          <img class="card-image" src="images/cards/applepay.png" alt="" />
+          <img class="card-image" src="images/cards/googlepay.png" alt="" />
+          <img class="card-image" src="images/cards/payu.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
